@@ -1,0 +1,17 @@
+INSERT INTO `author` VALUES
+(101, 'Ewing', 'Bobby'),
+(102, 'Skelton', 'Red'),
+(201, 'Magnum', 'Thomas'),
+(202, 'Barnes', 'Julie'),
+(203, 'Ramjet', 'Roger'),
+(204, 'Hart', 'Mickey'),
+(205, 'Slick', 'Grace'),
+(206, 'Mason', 'Perry'),
+(207, 'Betts', 'Dickey'),
+(208, 'Kid', 'Waco'),
+(209, 'Thornhill', 'Roger'),
+(210, 'Ferguson', 'Scottie'),
+(301, 'Wright', 'Barbara'),
+(302, 'Crichton', 'John'),
+(303, 'Flux', 'Aeon'),
+(304, 'Crawley', 'Robert');
