@@ -6,4 +6,4 @@ The database created was one resembling a library database with a windowing GUI.
 
 The following was the Entity Relationship Diagram:
 
-![ER-Diagram](https://user-images.githubusercontent.com/77694038/169878377-7fabda3d-cb33-439e-bbb8-c785ee698e4d.png)
+![ER-diagram](https://user-images.githubusercontent.com/77694038/169878799-7ed64c88-6093-4f26-a6f6-261f47a29605.png)
