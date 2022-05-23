@@ -1,4 +1,4 @@
-# Final Project for CS445 
+# Final Project for CS445 - Introduction to Machine Learning
 
 ## Brain Tumor Classification
 
