@@ -13,7 +13,7 @@ public class Lab10Phan {
     private void createConnection() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            this.con = DriverManager.getConnection("jdbc:mysql://faure/tonyphan", "tonyphan", "832030270");
+            this.con = DriverManager.getConnection("jdbc:mysql://faure/tonyphan", "USERNAME", "PASSWORD");
             this.stmt = con.createStatement();
             System.out.println("Successfully connected to db");
         } catch (Exception e) {
