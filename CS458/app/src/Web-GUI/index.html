@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<script src="script.js"></script>    
+<title>The Price is Right dApp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row"><h1>Welcome to The Price Is Right dApp!</h1></div>
+        <div class="row"><h3>Guess a number between 1 - 100</h3></div>
+        <div class="row" id="slider-row-1">
+          <div class="slider">
+            <input type="range" min="1" max="100" value="50" id="guess" oninput="rangeValue1.innerText = this.value">
+            <p id="rangeValue1">50</p>
+          </div>
+        </div>
+        <div class="row"><h3>Leeway</h3></div>
+      <div class="row" id="slider-row">
+      <div class="slider">
+        <input type="range" min="0" max="24" value="10" id="leeway"  oninput="rangeValue.innerText = this.value">
+        <p id="rangeValue">10</p>
+      </div>
+    </div>
+
+    <div class="row"><h3>Enter your wager</h3></div>
+    <div class="input-group">
+        <input type="text" class="form-control mb-2" id="wager" placeholder="Wager" aria-label="Recipient's username">
+        
+    </div>
+    
+    
+    <div class="row"><h3 id="win-msg">You will win if the number is<span id="win-con"> between</span>: <span id="num-range"></span></h3></div>
+    <div class="row"><h3 id="odds">Odds of a win: <span id="win-odds"></span></h3></div>
+    <div class="row"><h3 id="return">Return odds: <span id="return-odds"></span></h3></div>
+    <div class="row"><h3 id="return">Your return on a win: <span id="return-win"></span></h3></div>
+    <button type="button" class="btn btn-success mt-2" id="send-button" onclick="">Place bet (THIS CANNOT BE UNDONE!!!)</button>
+</div>
+</body>
+</html>

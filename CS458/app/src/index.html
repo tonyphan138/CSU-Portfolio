@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<script
+src="https://code.jquery.com/jquery-3.6.0.js"
+integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+crossorigin="anonymous"></script> 
+<style>
+  body {
+    background: #EFCDA4;
+   }
+   .slider {
+    width:500px;
+    height:60px;
+    padding:30px;
+    padding-left: 40px;
+    background:#fcfcfc;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    box-shadow:0px 15px 40px #7E6D5766;
+   }
+   .slider p {
+    font-size:26px;
+    font-weight:600;
+    font-family: Open Sans;
+    padding-left:30px;
+    color:#7E6D57;
+   }
+   .slider input[type=”range”] {
+    -webkit-appearance:none !important;
+    width:420px;
+    height:2px;
+    background:#7E6D57;
+    border:none;
+    outline:none;
+   }
+   .slider input[type=”range”]::-webkit-slider-thumb {
+    -webkit-appearance:none !important;
+    width:30px;
+    height:30px;
+    background:#fcfcfc;
+    border:2px solid #7E6D57;
+    border-radius:50%;
+    cursor:pointer;
+   }
+   .slider input[type=”range”]::-webkit-slider-thumb:hover {
+    background:#7E6D57;
+   }
+</style>
+  <head>
+    <div class="container">
+    <title>PriceCoin</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>PriceCoin</h1>
+    <p>You have <strong class="balance">loading...</strong> PRICE</p>
+
+    <h1>Buy PriceCoin</h1>
+
+    <label for="buyAmount">Amount: (1ETH : 500PRC)</label>
+    <input type="text" id="buyAmount" placeholder="Ether to exchange" />
+
+    <button onclick="App.buyPrice()">Buy PriceCoin</button>
+
+    <h1>Sell PriceCoin</h1>
+
+    <label for="sellAmount">Amount: (1ETH : 500PRC)</label>
+    <input type="text" id="sellAmount" placeholder="PriceCoin to exchange" />
+
+    <button onclick="App.sellPrice()">Sell PriceCoin</button>
+
+    <p id="status"></p>
+    <p>:^)</p>
+
+      <div class="row"><h1>Welcome to The Price Is Right dApp!</h1></div>
+      <div class="row"><h3>Guess a number between 1 - 100</h3></div>
+      <div class="row" id="slider-row-1">
+        <div class="slider">
+          <input type="range" min="1" max="100" value="50" id="guess" oninput="rangeValue1.innerText = this.value">
+          <p id="rangeValue1">50</p>
+        </div>
+      </div>
+      <div class="row"><h3>Leeway</h3></div>
+    <div class="row" id="slider-row">
+    <div class="slider">
+      <input type="range" min="0" max="24" value="10" id="leeway"  oninput="rangeValue.innerText = this.value">
+      <p id="rangeValue">10</p>
+    </div>
+  </div>
+
+  <div class="row"><h3>Enter your wager</h3></div>
+  <div class="input-group">
+      <input type="text" class="form-control mb-2" id="wager" placeholder="Wager" aria-label="Recipient's username">
+      
+  </div>
+  
+  
+  <div class="row"><h3 id="win-msg">You will win if the number is<span id="win-con"> between</span>: <span id="num-range"></span></h3></div>
+  <div class="row"><h3 id="odds">Odds of a win: <span id="win-odds"></span></h3></div>
+  <div class="row"><h3 id="return">Return odds: <span id="return-odds"></span></h3></div>
+  <div class="row"><h3 id="return">Your approximate return on a win: <span id="return-win"></span></h3></div>
+  <button type="button" class="btn btn-success mt-2" id="send-button" onclick="App.play()">Place bet (THIS CANNOT BE UNDONE!!!)</button>
+  <div class="row"><h3 id="outcome"></h3></div>
+  <div class="row"><h3 id="number"></h3></div>
+</div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PriceCoin</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>PriceCoin</h1>
+    <p>You have <strong class="balance">loading...</strong> PRICE</p>
+
+    <h1>Buy PriceCoin</h1>
+
+    <label for="amount">Amount:</label>
+    <input type="text" id="amount" placeholder="e.g. 95" />
+
+    <button onclick="App.buyCoin()">Buy PriceCoin</button>
+
+    <p id="status"></p>
+    <p>:^)</p>
+    <script src="index.js"></script>
+  </body>
+</html>
