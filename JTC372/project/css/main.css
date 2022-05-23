@@ -1,0 +1,571 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: "Kalam", cursive, sans-serif;
+}
+img {
+	display: block;
+}
+
+.mobile-nav label,
+.mobile-nav {
+	display: none;
+}
+
+.menu {
+	display: none;
+}
+
+.logo {
+	width: 10%;
+}
+.logo img {
+	width: 100%;
+}
+
+.logoText {
+	width: 60%;
+	padding-left: 1em;
+}
+.logoText img {
+	width: 100%;
+}
+
+.wrapper {
+	background-color: #06273a;
+}
+
+header {
+	display: flex;
+	/* text-align: center; */
+}
+
+.headerName {
+	width: 55%;
+	padding: 1em;
+	display: flex;
+	align-items: center;
+}
+
+.headerName h1 {
+	color: #fff;
+	font-size: 2em;
+}
+
+/* color: #ffc07f */
+
+.navLinks {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.navLinks nav {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding-right: 1em;
+}
+
+.navLinks a {
+	color: #fff;
+	text-decoration: none;
+}
+.navLinks a:hover {
+	color: #ffc07f;
+}
+.navLinks h2 {
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.imagePreview {
+	background-color: #fff;
+	height: 600px;
+	border: 4px solid black;
+	background-image: url("../images/wolf.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.descriptionWrapper {
+	padding-top: 5%;
+	padding-bottom: 10%;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+.description {
+	margin: auto;
+	color: #fff;
+	text-align: center;
+}
+
+.description h1 {
+	font-size: 2em;
+	color: #ffc07f;
+}
+.description p {
+	padding-left: 2em;
+	padding-right: 1em;
+	line-height: 1.6;
+	font-size: 1.2em;
+}
+.learnMoreButton {
+	text-align: center;
+	font-size: 1.2em;
+	padding: 0.5em;
+	color: #fff;
+	background-color: black;
+	margin-top: 5px;
+	border-radius: 6px;
+}
+.learnMoreButton:hover {
+	background-color: #4b4d55;
+}
+
+.specialties {
+	background-color: #fff;
+	text-align: center;
+	padding-top: 1%;
+}
+
+.specialties h1 {
+	font-size: 2.5em;
+}
+.specialties h2 {
+	font-size: 1.5em;
+}
+
+.images {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.innerImage {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	background-color: #06273a;
+	border: 2px solid black;
+	border-radius: 1em;
+}
+
+.innerImage img {
+	width: 100%;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+}
+
+.imageText {
+	background-color: #06273a;
+	color: #fff;
+	margin-top: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.imageText a {
+	color: #fff;
+	text-decoration: none;
+}
+.imageText a:hover {
+	color: #ffc07f;
+}
+
+footer {
+	background-color: #06273a;
+	color: #fff;
+	text-align: center;
+	border-top: 2px solid black;
+}
+
+.aboutSection {
+	background-color: #fff;
+	text-align: center;
+	padding-top: 1em;
+}
+.aboutText {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.aboutText h1 {
+	color: #06273a;
+	text-align: center;
+}
+.aboutText h2 {
+	color: #06273a;
+	text-align: center;
+}
+.aboutText p {
+	font-size: 1.2em;
+}
+
+.aboutImageContainer {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1em;
+}
+.aboutImageContainer img {
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 1em;
+	border: 0.5px solid black;
+}
+
+.educationSection {
+	text-align: center;
+}
+.educationSection h1 {
+	color: #ffc07f;
+	margin-bottom: 0;
+}
+.educationSection h2 {
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+.educationBlocks {
+	background-color: #fff;
+	border: 2px solid black;
+	border-radius: 1em;
+	margin: 0 2.5%;
+	width: 50%;
+	padding: 1em;
+	text-align: center;
+}
+.educationBlocks h1 {
+	color: #06273a;
+	font-size: 1.9em;
+}
+.educationBlocks h2 {
+	color: #000;
+	font-size: 1em;
+	text-align: center;
+}
+.educationText {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 1.2em;
+}
+
+.skillSets {
+	background-color: #fff;
+	text-align: center;
+	padding-top: 1em;
+}
+.skills {
+	display: flex;
+	justify-content: center;
+}
+
+.mainBackground {
+	padding-top: 2em;
+	background-color: #fff;
+}
+.contactWrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #fff;
+	background-color: #06273a;
+	padding: 1em;
+	border-radius: 1em;
+	/* border: 2px solid red; */
+}
+.contactWrapper h1 {
+	color: #ffc07f;
+}
+
+.contactWrapper u {
+	color: #ffc07f;
+}
+.contact {
+	text-align: left;
+	align-items: center;
+	width: 100%;
+	color: #ffc07f;
+	/* border: 2px solid green; */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	width: 100%;
+	background-color: rgb(32, 163, 102);
+	color: #fff;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: rgb(23, 197, 116);
+}
+
+.bookingPage {
+	background-color: #fff;
+	justify-content: center;
+}
+.bookingPhoto {
+	border: 2px solid black;
+	background-image: url("../images/booking-photography.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background-position: top;
+	height: 750px;
+}
+
+.bookingPhoto h1 {
+	font-size: 4em;
+	padding-left: 1em;
+}
+
+.photoAttribute {
+	color: #0093e9;
+}
+.photoAttribute :hover {
+	color: rgb(86, 101, 214);
+}
+
+.filmPhoto {
+	border: 2px solid black;
+	background-image: url("../images/flower.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-position: center;
+	height: 750px;
+}
+
+.filmPhoto h1 {
+	font-size: 4em;
+	padding-right: 1em;
+}
+
+.filmAttribute {
+	color: #0093e9;
+}
+.filmAttribute :hover {
+	color: rgb(86, 101, 214);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#photography {
+	background-color: #06273a;
+	text-align: center;
+	padding-top: 1em;
+	border: 2px solid black;
+	padding-bottom: 3em;
+}
+
+.photographyHeader h1 {
+	margin-bottom: 0;
+	font-size: 3em;
+	color: #ffc07f;
+}
+.photographyHeader p {
+	margin-top: 0;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.photographyDetails {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	text-align: left;
+	padding-left: 1em;
+	border-radius: 1em;
+	border: 2px solid black;
+	padding-bottom: 1em;
+}
+.photographyDetails p {
+	color: #06273a;
+	padding-left: 56px;
+	padding-right: 56px;
+	font-size: 1.5em;
+}
+.photographyDetails h2 {
+	color: #06273a;
+}
+
+#film {
+	background-color: #fff;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
+.filmHeader h1 {
+	margin-bottom: 0;
+	font-size: 3em;
+	color: #06273a;
+}
+
+.filmHeader p {
+	margin-top: 0;
+	font-size: 1.5em;
+}
+
+.filmDetails {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: #06273a;
+	text-align: left;
+	border-radius: 1em;
+	border: 2px solid black;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+.filmDetails h2 {
+	color: #ffc07f;
+}
+.filmDetails p {
+	padding-left: 56px;
+	padding-right: 56px;
+	font-size: 1.5em;
+}
+
+.photoTable {
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	margin-bottom: 2em;
+}
+.photoTable th {
+	font-size: 1.5em;
+}
+.photoTable td {
+	border: 1px solid black;
+	padding: 1em;
+	font-size: 1.3em;
+}
+.durationSection {
+	width: 30%;
+}
+
+.filmTable {
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	margin-bottom: 2em;
+}
+.filmTable th {
+	font-size: 1.5em;
+}
+.filmTable td {
+	border: 1px solid white;
+	padding: 1em;
+	font-size: 1.3em;
+}
+
+.bookButton {
+	font-size: 1.2em;
+	color: #06273a;
+	background-color: #ffc07f;
+	padding: 0.7em;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	border-radius: 0.5em;
+}
+
+.bookButton:hover {
+	background-color: #da9653;
+}
+
+.mainPortfolio {
+	text-align: center;
+	font-size: 1.2em;
+	background-color: #fff;
+	border: 2px solid black;
+}
+
+.portImages {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.portImages img {
+	width: 30%;
+	margin: 1%;
+	border-radius: 1em;
+	border: 2px solid black;
+}
+
+.environment {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.environment hr {
+	border: 1px solid black;
+	margin-top: 0;
+}
+
+.environmentImages {
+	width: 45%;
+	margin: 1%;
+	border: 2px solid black;
+	background-color: #ffc07f;
+	border-radius: 1.2em;
+}
+.environmentImages img {
+	width: 100%;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+}
+
+.temp {
+	background-color: #fff;
+	text-align: center;
+	height: 1500px;
+}
